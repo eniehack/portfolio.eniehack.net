@@ -1,5 +1,7 @@
 # eniehack.net
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/24f18484-fe51-4b36-afe5-96f2a72f103a/deploy-status)](https://app.netlify.com/sites/wonderful-visvesvaraya-10e2fb/deploys)
+
 > My portfolio site
 
 ## Build Setup
