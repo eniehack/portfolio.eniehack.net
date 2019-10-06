@@ -2,7 +2,7 @@
 
   <section class="container">
     <div class="columns is-variable is-8-desktop">
-      <div class="has-text-right introduction">
+      <div class="column has-text-left-desktop introduction is-one-third-desktop">
         <figure class="image is-square" title="avatar">
           <img src="avatar.svg" alt="avatar" />
         </figure>
@@ -38,7 +38,7 @@
           </div>
         </div>
       </div>
-      <div class="content column is-one-three-desktop">
+      <div class="content column is-four-fifths-desktop">
         <div class="tabs">
           <b-tabs>
             <b-tab-item label="About">
