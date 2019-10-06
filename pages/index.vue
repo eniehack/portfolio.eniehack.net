@@ -17,6 +17,9 @@
             <a href="https://pleroma.eniehack.net/eniehack" rel="noopener me" target="_blank" class="column" title="Pleroma">
               <i class="fa fa-pleroma fa-3x" aria-hidden="true" />
             </a>
+            <a href="https://liberapay.com/eniehack" rel="noopener me" target="_blank" class="column" title="Pleroma">
+              <i class="fa fa-liberapay fa-3x" aria-hidden="true" />
+            </a>
             <a href="https://twitter.com/eniehack" rel="noopener me" target="_blank" class="column" title="twitter">
               <i class="fa fa-twitter fa-3x" aria-hidden="true" />
             </a>
