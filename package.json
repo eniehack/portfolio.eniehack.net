@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "buefy": "^0.8.5",
-    "nuxt": "^1.0.0",
+    "mem": "4.0.0",
+    "nuxt": "^2.10.0",
     "nuxt-buefy": "^0.3.16"
   },
   "devDependencies": {
