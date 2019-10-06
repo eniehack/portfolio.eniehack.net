@@ -29,13 +29,10 @@
             <a href="https://keybase.io/eniehack" rel="noopener me" target="_blank" class="column" title="keybase">
               <i class="fa fa-keybase fa-3x" aria-hidden="true" />
             </a>
-            <a href="https://pleroma.eniehack.net/eniehack" rel="noopener me" target="_blank" class="column" title="Pleroma">
-              <i class="fa fa-pleroma fa-3x" aria-hidden="true" />
-            </a>
             <a href="https://matrix.to/#/@eniehack:matrix-jp.net" rel="noopener me" target="_blank" class="column" title="Matrix">
               <i class="fa fa-matrix-org fa-3x" aria-hidden="true" />
             </a>
-            <a href="xmpp:eniehack@jabber.at" rel="noopener me" target="_blank" class="column" title="Pleroma">
+            <a href="xmpp:eniehack@jabber.at" rel="noopener me" target="_blank" class="column" title="XMPP">
               <i class="fa fa-xmpp fa-3x" aria-hidden="true" />
             </a>
           </div>
