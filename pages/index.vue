@@ -17,7 +17,7 @@
             <a href="https://pleroma.eniehack.net/eniehack" rel="noopener me" target="_blank" class="column" title="Pleroma">
               <i class="fa fa-pleroma fa-3x" aria-hidden="true" />
             </a>
-            <a href="https://liberapay.com/eniehack" rel="noopener me" target="_blank" class="column" title="Pleroma">
+            <a href="https://liberapay.com/eniehack" rel="noopener me" target="_blank" class="column" title="Liberapay">
               <i class="fa fa-liberapay fa-3x" aria-hidden="true" />
             </a>
             <a href="https://twitter.com/eniehack" rel="noopener me" target="_blank" class="column" title="twitter">
@@ -78,7 +78,8 @@
             <b-tab-item label="Links">
               <h1 class="title is-size-2-desktop" id="links">Links</h1>
               <p>Misskey</p>
-              <p>Blog</p>
+              <p><a href="https://eniehack.hatenablog.com/">初代Blog</a></p>
+              <p><a href="https://blog.eniehack.net/">2代目Blog</a></p>
             </b-tab-item>
           </b-tabs>
         </div>
