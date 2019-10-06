@@ -2,7 +2,7 @@
 
   <section class="container">
     <div class="columns is-variable is-8-desktop">
-      <div class="column has-text-left-desktop introduction is-one-third-desktop">
+      <div class="column has-text-left-desktop introduction is-3-desktop">
         <figure class="image is-square" title="avatar">
           <img src="avatar.svg" alt="avatar" />
         </figure>
@@ -10,7 +10,7 @@
           <h1 class="title is-size-1-desktop">
             Nakaya
           </h1>
-          <h2 class="subtitle is-size-2-desktop">
+          <h2 class="subtitle is-size-3-desktop">
             a Web developer
           </h2>
           <div class="links columns is-mobile is-multiline is-variable is-1-desktop">
