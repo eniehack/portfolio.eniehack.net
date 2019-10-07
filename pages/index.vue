@@ -38,8 +38,7 @@
           </div>
         </div>
       </div>
-      <div class="content column is-four-fifths-desktop">
-        <div class="tabs">
+      <div class="content column is-three-fifths-desktop">
           <b-tabs>
             <b-tab-item label="About">
                 <h1 class="title is-size-2-desktop" id="About">About</h1>
@@ -84,6 +83,5 @@
           </b-tabs>
         </div>
       </div>
-    </div>
   </section>
 </template>
