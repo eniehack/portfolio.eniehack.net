@@ -63,10 +63,33 @@
 
             <b-tab-item label="Skills">
               <h1 class="title is-size-2-desktop" id="skills">Skills</h1>
-              <h2 class="has-text-weight-light is-size-3-desktop">Golang</h2>
-              <h2 class="has-text-weight-light is-size-3-desktop">ESP32</h2>
-              <h2 class="has-text-weight-light is-size-3-desktop">Arduino</h2>
-              <h2 class="has-text-weight-light is-size-3-desktop">Linuxサーバ運用</h2>
+              <div class="columns">
+                <div class="column is-one-quarter is-centered">
+                  <i class="devicon-go-line colored icon"/>
+                  <p class="has-text-weight-light is-size-3-desktop">Golang</p>
+                  <ul>
+                    <li>chiを用いた簡単なWeb APIサーバ作成</li>
+                  </ul>
+                </div>
+                <div class="column is-one-quarter is-centered">
+                  <i class="devicon-linux-plain icon"/>
+                  <p class="has-text-weight-light is-size-3-desktop">Linux</p>
+                  <ul>
+                    <li>サーバの運用</li>
+                  </ul>
+                </div>
+                <div class="column is-one-quarter is-centered">
+                  <i class="devicon-nginx-original icon"/>
+                  <p class="has-text-weight-light is-size-3-desktop">Nginx</p>
+                  <ul>
+                    <li>簡単な構成ファイルの記述</li>
+                  </ul>
+                </div>
+                <div class="column is-one-quarter is-centered">
+                  <i class="fa fa-microchip icon" aria-hidden="true"/>
+                  <p class="has-text-weight-light is-size-3-desktop">Arduino</p>
+                </div>
+              </div>
             </b-tab-item>
             <b-tab-item label="Works">
               <h1 class="title is-size-2-desktop" id="works">Works</h1>
