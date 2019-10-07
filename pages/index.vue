@@ -85,3 +85,12 @@
       </div>
   </section>
 </template>
+
+<style lang="scss">
+.icon {
+  font-size: 50px;
+}
+.is-centered {
+  text-align: center;
+}
+</style>
