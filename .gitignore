@@ -1,14 +1,4 @@
-# dependencies
-node_modules
-
-# logs
-npm-debug.log
-
-# Nuxt build
-.nuxt
-
-# Nuxt generate
-dist
-
-# IDE
-.idea
+/node_modules
+/tmp
+/dist
+/src/css
