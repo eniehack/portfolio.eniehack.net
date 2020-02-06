@@ -25,7 +25,7 @@ const Introduction = () => {
 }
 
 const IconComponents = (props) => {
-    const descriptionList = props.descriptions.map((link, index) => 
+    const descriptionList = props.descriptions.map((link, index) =>
         <span key={index}>{link}</span>
     );
     return (
@@ -39,7 +39,7 @@ const IconComponents = (props) => {
 }
 
 const LikeCardConponents = (props) => {
-    const linkList = props.links.map((link, index) => 
+    const linkList = props.links.map((link, index) =>
         <div className="column" key={index}>
             {link}
         </div>
@@ -58,12 +58,12 @@ const LikeCardConponents = (props) => {
             <div className="tags is-mobile is-inline-flex">
                 {tagList}
             </div>
-                <div className="content">
-                    {props.description}
-                </div>
-                <div className="columns is-mobile is-inline-flex">
-                    {linkList}
-                </div>
+            <div className="content">
+                {props.description}
+            </div>
+            <div className="columns is-mobile is-inline-flex">
+                {linkList}
+            </div>
             </div>
         </section>
     )
@@ -78,67 +78,67 @@ const Works = () => {
                     title="matrix-jp.net"
                     description="matrix-jp.netはチャットのオープン規格の1つであるMatrix.orgのホームサーバの1つで、Matrixを日本に啓蒙しようと立てられました。私は運営をしています。"
                     links={[
-                        <div className="column">
-                            <a href="https://matrix-jp.net" rel="noopener me" target="_blank" className="button is-rounded is-primary">
-                                <span>visit</span>
-                            </a>
-                        </div>,
-                        <div className="column">
-                            <a href="https://matrix.org" rel="noopener me" target="_blank" className="button is-rounded is-info">
-                                matrix.org
-                            </a>
-                        </div>
+                    <div className="column">
+                        <a href="https://matrix-jp.net" rel="noopener me" target="_blank" className="button is-rounded is-info">
+                        <span>visit</span>
+                        </a>
+                    </div>,
+                    <div className="column">
+                        <a href="https://matrix.org" rel="noopener me" target="_blank" className="button is-rounded">
+                        <span>matrix.org</span>
+                        </a>
+                    </div>
                     ]}
                     tags={["Linux","nginx","Debian"]}
                 />
-                <LikeCardConponents
-                    title="w3w-encounter(仮) [W.I.P.]"
-                    description="ElmとWhat3Words API、Bulma、Geolocation APIを用いて作られた待ち合わせ支援ツールです。"
-                    links={[
-                        <div className="column">
+            <LikeCardConponents
+                title="w3w-encounter(仮) [W.I.P.]"
+                description="ElmとWhat3Words API、Bulma、Geolocation APIを用いて作られた待ち合わせ支援ツールです。"
+                links={[
+                    <div className="column">
                         <a href="https://practical-mcclintock-efe029.netlify.com/" rel="noopener me" target="_blank" className="button is-rounded is-info">
                         <span>visit</span>
                         </a>
                     </div>,
                     <div className="column">
-                            <a href="https://github.com/eniehack/w3w-encounter" rel="noopener me" target="_blank" title="w3w-encounter's github page" className="button is-rounded">
-                                <span className="icon">
-                                    <Github />
-                                </span>
-                                <span>GitHub</span>
-                            </a>
-                        </div>
-                    ]}
+                        <a href="https://github.com/eniehack/w3w-encounter" rel="noopener me" target="_blank" title="w3w-encounter's github page" className="button is-rounded">
+                            <span className="icon">
+                                <Github />
+                            </span>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                ]}
                 tags={["Elm", "Bulma", "JavaScript"]}
-                />
-                <LikeCardConponents
-                    title="persona [W.I.P.]"
-                    description="Mastodonなどが参加するネットワーク、ActivityPubに対応予定のSNSです。"
-                    links={[
-                        <div className="column">
-                            <a href="https://github.com/Persona-dev/Persona-Server" rel="noopener me" target="_blank" title="github" className="button is-rounded">
-                                <span className="icon">
-                                    <Github />
-                                </span>
-                                <span>GitHub</span>
-                            </a>
-                        </div>
-                    ]}
+            />
+            <LikeCardConponents
+                title="persona [W.I.P.]"
+                description="Mastodonなどが参加するネットワーク、ActivityPubに対応予定のSNSです。"
+                links={[
+                    <div className="column">
+                    <a href="https://github.com/Persona-dev/Persona-Server" rel="noopener me" target="_blank" title="github" className="button is-rounded">
+                        <span className="icon">
+                            <Github />
+                        </span>
+                        <span>GitHub</span>
+                    </a>
+                    </div>
+                ]}
                 tags={["Golang","Golang/chi"]}
-                />
-                <LikeCardConponents
-                    title="Amaterrace [W.I.P.]"
-                    description="オープンソースな光目覚まし時計です。スマートフォンでBluetoothを介しデバイスに関するあらゆる設定ができるようになる予定です。日本神話における太陽神、天照大神(あまてらすおおみかみ)と日光浴のイメージのある、terraceをとって命名しました。"
-                    links={[
-                        <div className="column">
-                            <a href="https://github.com/eniehack/amaterrace" rel="noopener me" target="_blank" title="amaterrace git repogitory" className="button is-rounded">
-                                <span className="icon">
-                                    <Github />
-                                </span>
-                                <span>GitHub</span>
-                            </a>
-                        </div>
-                    ]}
+            />
+            <LikeCardConponents
+                title="Amaterrace [W.I.P.]"
+                description="オープンソースな光目覚まし時計です。スマートフォンでBluetoothを介しデバイスに関するあらゆる設定ができるようになる予定です。日本神話における太陽神、天照大神(あまてらすおおみかみ)と日光浴のイメージのある、terraceをとって命名しました。"
+                links={[
+                    <div className="column">
+                        <a href="https://github.com/eniehack/amaterrace" rel="noopener me" target="_blank" title="amaterrace git repogitory" className="button is-rounded">
+                            <span className="icon">
+                                <Github />
+                            </span>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                ]}
                 tags={["C++","ESP32","ESP32 for Arduino"]}
             />
             <LikeCardConponents
@@ -160,7 +160,7 @@ const Works = () => {
                     </div>
                 ]}
                 tags={["Nuxt.js", "JavaScript"]}
-                />
+            />
             </div>
         </section>
     )
