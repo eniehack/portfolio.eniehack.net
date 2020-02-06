@@ -136,6 +136,25 @@ const Works = () => {
                     ]}
                 tags={["C++","ESP32","ESP32 for Arduino"]}
             />
+            <LikeCardConponents
+                title="kokasai.com"
+                description="文化祭の公式サイトをNuxt.jsを用いて製作しました。NuxtとVueに触れるのは初めてだったので、component関連がグチャグチャになってます……。"
+                links={[
+                    <div className="column">
+                        <a href="https://kokasai.com/22nd" rel="noopener me" target="_blank" title="kokasai.com" className="button is-rounded is-info">
+                            <span>visit</span>
+                        </a>
+                    </div>,
+                    <div className="column">
+                        <a href="https://github.com/eniehack/22nd.kokasai.com" rel="noopener me" target="_blank" title="kokasai.com git repogitory" className="button is-rounded">
+                            <span className="icon">
+                                <Github />
+                            </span>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                ]}
+                tags={["Nuxt.js", "JavaScript"]}
                 />
             </div>
         </section>
