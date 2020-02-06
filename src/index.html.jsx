@@ -96,6 +96,11 @@ const Works = () => {
                     description="ElmとWhat3Words API、Bulma、Geolocation APIを用いて作られた待ち合わせ支援ツールです。"
                     links={[
                         <div className="column">
+                        <a href="https://practical-mcclintock-efe029.netlify.com/" rel="noopener me" target="_blank" className="button is-rounded is-info">
+                        <span>visit</span>
+                        </a>
+                    </div>,
+                    <div className="column">
                             <a href="https://github.com/eniehack/w3w-encounter" rel="noopener me" target="_blank" title="w3w-encounter's github page" className="button is-rounded">
                                 <span className="icon">
                                     <Github />
