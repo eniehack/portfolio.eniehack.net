@@ -44,12 +44,20 @@ const LikeCardConponents = (props) => {
             {link}
         </div>
     );
+    const tagList = props.tags.map((tag, index) =>
+        <span className="tag is-light" key={index}>
+            {tag}
+        </span>
+    );
     return (
         <section className="column is-one-third-desktop">
             <h3 className="subtitle">
                 {props.title}
             </h3>
             <div>
+            <div className="tags is-mobile is-inline-flex">
+                {tagList}
+            </div>
                 <div className="content">
                     {props.description}
                 </div>
@@ -81,6 +89,7 @@ const Works = () => {
                             </a>
                         </div>
                     ]}
+                    tags={["Linux","nginx","Debian"]}
                 />
                 <LikeCardConponents
                     title="w3w-encounter(仮) [W.I.P.]"
@@ -95,6 +104,7 @@ const Works = () => {
                             </a>
                         </div>
                     ]}
+                tags={["Elm", "Bulma", "JavaScript"]}
                 />
                 <LikeCardConponents
                     title="persona [W.I.P.]"
@@ -109,6 +119,7 @@ const Works = () => {
                             </a>
                         </div>
                     ]}
+                tags={["Golang","Golang/chi"]}
                 />
                 <LikeCardConponents
                     title="Amaterrace [W.I.P.]"
@@ -123,6 +134,8 @@ const Works = () => {
                             </a>
                         </div>
                     ]}
+                tags={["C++","ESP32","ESP32 for Arduino"]}
+            />
                 />
             </div>
         </section>
