@@ -2,7 +2,7 @@ export const Footer = () => {
     return (
         <footer className="footer">
             <div className="column is-10 is-offset-2">
-                <small>Copyright &copy; 2020 Nakaya, You may choose two license, MPL-2.0 or Apache-2.0.</small>
+                <small>Copyright &copy; 2020 Nakaya, licensed by either of MPL-2.0 or Apache-2.0 at your option.</small>
             </div>
         </footer>
     )
