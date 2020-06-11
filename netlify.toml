@@ -1,6 +1,6 @@
 [build]
-publish = "/dist"
-command = "npm run build"
+publish = "/build"
+command = "bundler exec middleman build"
 
 [build.processing]
 skip_processing = false
@@ -16,6 +16,6 @@ pretty_urls = true
 compress = true
 
 [context.production]
-publish = "/dist"
-command = "npm run build"
+publish = "/build"
+command = "bundler exec middleman build"
 
