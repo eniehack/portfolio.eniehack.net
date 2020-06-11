@@ -1,0 +1,91 @@
+{
+    "links": [
+        {
+            "title": "pleroma",
+            "icon":"fa-pleroma",
+            "description": "MastodonやMisskeyなどActivityPubに対応したSNSでフォロー可能なアカウントです。            一番浮上頻度が高いです。",
+            "link": {
+                "url": "https://pleroma.eniehack.net/eniehack",
+                "title": "visit"
+            }
+        },
+        {
+            "title": "blog",
+            "icon": "fa-file-text",
+            "description": "自分の思っていることから興味のある技術の話まで色々書こうと思っているブログです。",
+            "link": {
+                "url": "https://blog.eniehack.net/",
+                "title": "visit"
+            }
+        },
+        {
+            "icon": "fa-twitter",
+            "title": "twitter",
+            "description": "適当なことや宣伝することを書きます。PleromaやMastodonよりかは投稿頻度は低めです。",
+            "link": {
+                "url": "https://twitter.com/eniehack",
+                "title": "visit"
+            }
+        },
+        {
+            "icon": "fa-github",
+            "title": "github",
+            "description": "成果物をホストしています。最近はGitLabを使うことが多いです。",
+            "link": {
+                "url":"https://github.com/eniehack", 
+                "title": "visit"
+            }
+        },
+        {
+            "icon": "fa-gitlab",
+            "title": "gitlab",
+            "description": "成果物をホストしています。",
+            "link": {
+                "url": "https://gitlab.com/eniehack",
+                "title": "visit"
+            }
+        },
+        {
+            "icon": "fa-keybase",
+            "title": "keybase",
+            "description": "Keybaseです。",
+            "link": {
+                "url": "https://keybase.io/eniehack",
+                "title": "visit"
+            }
+        },
+        {
+            "icon": "fa-matrix-org",
+            "title": "matrix",
+            "description": "Matrix.orgです",
+            "link": {
+                "url": "https://matrix.to/#/@eniehack:matrix-jp.net",
+                "description": ""
+            }
+        },
+        {
+            "icon": "fa-xmpp",
+            "title": "XMPP",
+            "description": "リンクをクリックすると、<code>xmpp:</code>リンクに対応したXMPPクライアントが開きます。開かない場合は<code>eniehack@jabber.at</code>までどうぞ。",
+            "link": {
+                "url": "xmpp:eniehack@jabber.at",
+                "title": "open XMPP client"
+            }
+        },
+        {
+            "icon": "fa-liberapay",
+            "title": "liberapay",
+            "description": "OSSで作成された寄附し合えるプラットフォームです。PayPalアカウントをお持ちの方のみになりますが寄附をいただけるとありがたいです。",
+            "link": {
+                "url": "https://liberapay.com/eniehack",
+                "title": "visit"
+            }
+        },
+        {
+            "icon": "fa-jpy",
+            "title": "Kyash",
+            "description": "Kyash ID: eniehack",
+            "link": null
+        }
+    ]
+}

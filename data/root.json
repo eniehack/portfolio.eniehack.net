@@ -1,0 +1,194 @@
+{
+    "about": {
+        "body": "components/about.md"
+    },
+    "skills": [
+        {
+            "title": "Golang",
+            "icon": "",
+            "description": "components/skills/golang.md"
+        },
+        {
+            "title": "Nuxt/Vue",
+            "icon": "",
+            "description": "components/skills/nuxt.md"
+        },
+        {
+            "title": "Gatsby.js/jsx/React",
+            "icon": "",
+            "description": "components/skills/react.md"
+        },
+        {
+            "title": "Linux",
+            "icon": "",
+            "description": "components/skills/linux.md"
+        }
+    ],
+    "links": [
+        {
+            "title": "Pleroma",
+            "icon":"fa-pleroma",
+            "description": "MastodonやMisskeyなどActivityPubに対応したSNSでフォロー可能なアカウントです。            一番浮上頻度が高いです。",
+            "link": {
+                "url": "https://pleroma.eniehack.net/eniehack",
+                "title": "visit"
+            }
+        },
+        {
+            "title": "Mastodon",
+            "icon":"fa-mastodon",
+            "description": "上記サーバが使用不可のときにsublimerさんのサーバにお世話になります。",
+            "link": {
+                "url": "https://mstdn.sublimer.me/@eniehack",
+                "title": "visit"
+            }
+        },
+        {
+            "title": "Blog",
+            "icon": "fa-file-text",
+            "description": "自分の思っていることから興味のある技術の話まで色々書こうと思っているブログです。",
+            "link": {
+                "url": "https://blog.eniehack.net/",
+                "title": "visit"
+            }
+        },
+        {
+            "icon": "fa-twitter",
+            "title": "Twitter",
+            "description": "適当なことや宣伝することを書きます。PleromaやMastodonよりかは投稿頻度は低めです。",
+            "link": {
+                "url": "https://twitter.com/eniehack",
+                "title": "visit"
+            }
+        },
+        {
+            "icon": "fa-github",
+            "title": "GitHub",
+            "description": "成果物をホストしています。最近はGitLabを使うことが多いです。",
+            "link": {
+                "url":"https://github.com/eniehack", 
+                "title": "visit"
+            }
+        },
+        {
+            "icon": "fa-gitlab",
+            "title": "GitLab",
+            "description": "成果物をホストしています。",
+            "link": {
+                "url": "https://gitlab.com/eniehack",
+                "title": "visit"
+            }
+        },
+        {
+            "icon": "fa-keybase",
+            "title": "Keybase",
+            "description": "Keybaseです。",
+            "link": {
+                "url": "https://keybase.io/eniehack",
+                "title": "visit"
+            }
+        },
+        {
+            "icon": "fa-matrix-org",
+            "title": "Matrix",
+            "description": "仕様の公開されたチャットサービス、Matrixのアカウントです",
+            "link": {
+                "url": "https://matrix.to/#/@eniehack:matrix-jp.net",
+                "title": "matrix uri is here"
+            }
+        },
+        {
+            "icon": "fa-xmpp",
+            "title": "XMPP",
+            "description": "リンクをクリックすると、<code>xmpp:</code>リンクに対応したXMPPクライアントが開きます。開かない場合は<code>eniehack@jabber.at</code>までどうぞ。",
+            "link": {
+                "url": "xmpp:eniehack@jabber.at",
+                "title": "open XMPP client"
+            }
+        },
+        {
+            "icon": "fa-liberapay",
+            "title": "Liberapay",
+            "description": "OSSで作成された寄附し合えるプラットフォームです。PayPalアカウントをお持ちの方のみになりますが寄附をいただけるとありがたいです。",
+            "link": {
+                "url": "https://liberapay.com/eniehack",
+                "title": "visit"
+            }
+        },
+        {
+            "icon": "fa-jpy",
+            "title": "Kyash",
+            "description": "Kyash ID: eniehack",
+            "link": null
+        }
+    ],
+    "works": [
+        {
+            "title": "matrix-jp.net",
+            "description": "matrix-jp.netはチャットのオープン規格の1つであるMatrix.orgのホームサーバの1つで、Matrixを日本に啓蒙しようと立てられました。私は運営をしています。",
+            "links": [
+                {
+                    "link": "https://matrix-jp.net",
+                    "title": "matrix-jp.net"
+                },
+                {
+                    "link": "https://matrix.org",
+                    "title": "matrix.org"
+                }
+            ],
+            "tags": ["linux", "nginx", "debian"]
+        },
+        {
+            "title": "w3w-encounter(仮) [W.I.P.]",
+            "description": "ElmとWhat3Words API、Bulma、Geolocation APIを用いて作られた待ち合わせ支援ツールです。",
+            "links": [
+                {
+                    "link": "https://practical-mcclintock-efe029.netlify.com/",
+                    "title": "visit"
+                },
+                {
+                    "link": "https://github.com/eniehack/w3w-encounter",
+                    "title": "GitHub"
+                }
+            ],
+            "tags": ["Elm", "Bulma", "JavaScript"]
+        },
+        {
+            "title": "persona [W.I.P.]",
+            "description": "Mastodonなどが参加するネットワーク、ActivityPubに対応予定のSNSです。",
+            "links": [
+                {
+                    "link": "https://github.com/Persona-dev/Persona-Server",
+                    "title": "GitHub"
+                }
+            ],
+            "tags": ["Golang","Golang/chi"]
+        },
+        {
+            "title":"Amaterrace [W.I.P.]",
+            "description": "オープンソースな光目覚まし時計です。スマートフォンでBluetoothを介しデバイスに関するあらゆる設定ができるようになる予定です。日本神話における太陽神、天照大神(あまてらすおおみかみ)と日光浴のイメージのある、terraceをとって命名しました。",
+            "links": [
+                {
+                    "link": "https://github.com/eniehack/amaterrace",
+                    "title": "GitHub"
+                }
+            ],
+            "tags":["C++","ESP32","ESP32 for Arduino"]
+        },
+        {
+            "title": "kokasai.com",
+            "description": "文化祭の公式サイトをNuxt.jsを用いて製作しました。NuxtとVueに触れるのは初めてだったので、component関連がグチャグチャになってます……。",
+            "links":[
+                {
+                    "title": "visit",
+                    "link": "https://kokasai.com/22nd"
+                },
+                {
+                    "title": "GitHub",
+                    "link": "https://github.com/eniehack/22nd.kokasai.com"
+                }
+            ],
+            "tags":["Nuxt.js", "JavaScript"]
+        }
+    ]
+}

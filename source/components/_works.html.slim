@@ -1,0 +1,16 @@
+section#Works
+  h2#Works Works
+  div
+    - data.root.works.each do |work|
+      section.works--section id="#{work.title}"
+        h3.works--title = work.title
+        .works--tags
+          - work.tags.each do |tag|
+            span.works--tag = tag
+        p.work--description
+          = work.description
+        - unless work.links.nil?
+          .works--links
+            - work.links.each do |element|
+              a.button.button-outline href="#{element.link}"
+                = element.title

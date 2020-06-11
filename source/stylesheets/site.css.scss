@@ -1,0 +1,84 @@
+.link--title {
+  display: grid;
+  grid-template-columns: 40px auto;
+  grid-template-rows: 40px;
+  column-gap: 15px;
+
+  i {
+    font-size: 40px;
+    position: relative;
+    top: 8px;
+  }
+
+  .fa-pleroma {
+    padding-left: 16px;
+    margin-top: 8px;
+  }
+
+  .fa-twitter {
+    padding-left: 5px;
+  }
+
+  .fa-github {
+    padding-left: 5px;
+  }
+
+  .fa-keybase {
+    padding-left: 5px;
+  }
+
+  .fa-matrix-org {
+    padding-left: 5px;
+  }
+
+  .fa-liberapay {
+      padding-left: 12px;
+  }
+
+  .fa-xmpp {
+    padding-left: 5px;
+  }
+
+  .fa-jpy {
+    margin-left: 17px;
+  }
+}
+
+.link--description {
+    position: relative;
+    left: 59px;
+}
+
+.works--tag {
+    color: #2660a1;
+    background-color: #ffffff;
+    border: 0.1rem solid #2660a1;
+    border-radius: .4rem;
+    padding: 2px 3px;
+    margin-left: 3px;
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.works--section {
+    padding-bottom: 40px;
+}
+
+.works--links > .button {
+  margin-left: 10px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+img.avatar {
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 15px;
+}

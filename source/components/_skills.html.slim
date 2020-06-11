@@ -1,0 +1,9 @@
+section#skills
+  h2#skills.skills--title Skills
+  .skills--body
+    - data.root.skills.each do |skill|
+      section.skill--title
+        h3 = skill.title
+        .skill--description
+          == partial skill.description
+
