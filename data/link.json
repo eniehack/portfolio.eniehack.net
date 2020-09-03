@@ -66,9 +66,9 @@
         {
             "icon": "fa-xmpp",
             "title": "XMPP",
-            "description": "リンクをクリックすると、<code>xmpp:</code>リンクに対応したXMPPクライアントが開きます。開かない場合は<code>eniehack@jabber.at</code>までどうぞ。",
+            "description": "リンクをクリックすると、<code>xmpp:</code>リンクに対応したXMPPクライアントが開きます。開かない場合はクライアントから直接<code>eniehack@jabber.eniehack.net</code>を追加してください。",
             "link": {
-                "url": "xmpp:eniehack@jabber.at",
+                "url": "xmpp:eniehack@jabber.eniehack.net",
                 "title": "open XMPP client"
             }
         },
