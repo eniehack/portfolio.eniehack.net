@@ -4,3 +4,5 @@
     * aptやpacmanによるパッケージインストール
 * Debian系やArchLinuxの基本的な操作
 * Nginxを用いたWebサーバの設営
+* 簡単なShellScriptの作成、デバッグ
+* 基本的なvi/vimキーバインドの理解
