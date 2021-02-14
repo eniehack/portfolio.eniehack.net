@@ -4,10 +4,10 @@ section#links
     - data.root.links.each do |link|
       section
         h3.link--title
-          i class="fa #{link.icon}" aria-hidden="true"
-          span
-            = link.title
+          /i class="fa #{link.icon}" aria-hidden="true"
+          - unless link.link.nil?
+            a href="#{link.link.url}" rel="me noopener" target="_blank" = link.title
+          - else
+            span = link.title
         .link--description
           p == link.description
-          - unless link.link.nil?
-            a.button.button-outline href="#{link.link.url}" rel="me noopener" target="_blank" = link.link.title
