@@ -1,0 +1,62 @@
+* Nakaya
+#+CAPTION: My avatar
+#+ATTR_HTML: :alt My avatar
+[[./assets/avatar.svg]]
+
+** About
+学生をしています。
+節操もなく、neovimとdoom emacsを行き来する生活。
+計算機科学、SemanticWeb、分散型SNS、OSS、人文科学に興味があります。
+
+*** interests
+[[file:https://img.shields.io/badge/XMPP-%23002B5C.svg?style=flat-square&logo=XMPP&logoColor=white]]
+[[file:https://img.shields.io/badge/Archlinux-%230088cc.svg?style=flat-square&logo=Arch%20Linux&logoColor=white]]
+[[file:https://img.shields.io/badge/Matrix-%23000000.svg?style=flat-square&logo=Matrix&logoColor=white]]
+[[file:https://img.shields.io/badge/Elm-%231293D8.svg?style=flat-square&logo=Elm&logoColor=white]]
+[[file:https://img.shields.io/badge/Debian-%23A81D33.svg?style=flat-square&logo=Debian&logoColor=white]]
+[[file:https://img.shields.io/badge/Neovim-%2357A143.svg?style=flat-square&logo=Neovim&logoColor=white]]
+[[file:https://img.shields.io/badge/Ruby-%23CC342D.svg?style=flat-square&logo=Ruby&logoColor=white]]
+[[file:https://img.shields.io/badge/SemanticWeb-%23005A9C.svg?style=flat-square&logo=Semantic%20Web&logoColor=white]]
+[[file:https://img.shields.io/badge/Mastodon-%233088D4.svg?style=flat-square&logo=Mastodon&logoColor=white]]
+[[file:https://img.shields.io/badge/Diaspora-%23000000.svg?style=flat-square&logo=Diaspora&logoColor=white]]
+[[file:https://img.shields.io/badge/Crystal-%23777777.svg?style=flat-square&logo=Crystal&logoColor=white]]
+
+** skills
+*** Golang
+- chi、sqlxを用いたREST APIサーバの開発
+- コマンドラインアプリケーションの開発
+*** Vue.js/Nuxt.js
+- LPの制作
+*** React.js
+*** Linux
+- SSHを介したVPSサーバの設営
+- viの基本操作
+- Debian系やArchLinuxの基本操作
+- Nginxを用いたHTTPサーバの設営
+- systemdの基本的な知識
+  + systemdのunit、timerファイルの作成、編集
+- shellscript(not bash)を用いた簡単なスクリプトの作成
+*** Ruby
+*** Crystal
+*** Python
+** works
+*** matrix-jp.net
+私が運用している[[https://matrix.org/][matrix.org]]のサーバ、matrixに関するwikiです。
+matrixを啓蒙するために設立されました。
++ [[https://wiki.matrix-jp.net][matrix-jp wiki]]
+*** webmention.cr
+responseからwebmention endpointを探すCrystalのライブラリです。
++ [[https://gitlab.com/eniehack/webmention-cr][git repo]]
+*** 22nd.kokasai.com
+Nuxtで書いた文化祭のLPです。
++ [[https://22nd.kokasai.com/][website]]
+** links
+- [[https://blog.eniehack.net/][blog]]
+- [[https://gitlab.com/eniehack/][GitLab]]
+  + [[https://gitlab.com/users/eniehack/snippets][snippets]]
+- [[https://github.com/eniehack/][GitHub]]
+** contacts
+- [[https://mstdn.sublimer.me/@eniehack][mastodon]]
+- [[https://twitter.com/eniehack][Twitter]]
+- [[https://matrix.to/#/@eniehack:matrix-jp.net][Matrix]]
+- [[xmpp:eniehack@jabber.eniehack.net][XMPP]]

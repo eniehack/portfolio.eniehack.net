@@ -1,6 +1,6 @@
 [build]
 publish = "/build"
-command = "bundler exec middleman build"
+command = "./build.sh"
 
 [build.processing]
 skip_processing = false
@@ -17,5 +17,5 @@ compress = true
 
 [context.production]
 publish = "/build"
-command = "bundler exec middleman build"
+command = "./build.sh"
 
