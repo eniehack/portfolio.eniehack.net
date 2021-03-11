@@ -50,6 +50,10 @@ responseからwebmention endpointを探すCrystalのライブラリです。
 *** 22nd.kokasai.com
 Nuxtで書いた文化祭のLPです。
 + [[https://22nd.kokasai.com/][website]]
+*** 「introduction to matrix.org」
+合同誌「分散型SNS萬本 vol.2」6章で書かせていただいた文章です。
+コミュニケーションプロトコルのMatrix.orgの思想から技術的な話までを薄く広く扱った内容になっています。
++ [[https://techbookfest.org/product/5703032188698624?productVariantID=5919267820142592][技術書典オンラインマーケット]]
 ** links
 - [[https://blog.eniehack.net/][blog]]
 - [[https://gitlab.com/eniehack/][GitLab]]
