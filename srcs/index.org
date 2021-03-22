@@ -64,3 +64,8 @@ Nuxtで書いた文化祭のLPです。
 - [[https://twitter.com/eniehack][Twitter]]
 - [[https://matrix.to/#/@eniehack:matrix-jp.net][Matrix]]
 - [[xmpp:eniehack@jabber.eniehack.net][XMPP]]
+** donation
+- BitcoinCash: qr9xs7uh3zcdrkejnezvz2rumacl5g204gn28kx233
+- kyash: eniehack
+- [[https://flattr.com/@eniehack][Flattr]]
+- [[https://liberapay.com/eniehack/][Liberapay]]
