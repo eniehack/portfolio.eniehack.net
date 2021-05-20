@@ -56,6 +56,7 @@ Nuxtで書いた文化祭のLPです。
 + [[https://techbookfest.org/product/5703032188698624?productVariantID=5919267820142592][技術書典オンラインマーケット]]
 ** links
 - [[https://blog.eniehack.net/][blog]]
+- [[https://keyoxide.org/6E1005C1115354DF97C80619AE054EAFB2F95E18][Keyoxide]] (contains gpg key)
 - [[https://gitlab.com/eniehack/][GitLab]]
   + [[https://gitlab.com/users/eniehack/snippets][snippets]]
 - [[https://github.com/eniehack/][GitHub]]
