@@ -3,5 +3,6 @@
 set -euo
 
 mkdir -p ./build
-bundler exec ruby main.rb > build/index.html
+xsltproc -o ./build/index.html html.xsl foaf.xml
 cp -r ./assets ./build
+cp -r foaf.xml ./build

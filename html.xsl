@@ -73,6 +73,7 @@
                           list-style: none;
                           display: flex;
                           gap: 5px;
+                          flex-wrap: wrap;
                     }
 
                     .topic:not(:last-child)::after {
@@ -81,6 +82,10 @@
 
                     article {
                         margin-top: 75px;
+                    }
+
+                    footer {
+                        margin-bottom: 50px;
                     }
                 </style>
             </head>
