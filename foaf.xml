@@ -48,6 +48,18 @@
         <foaf:made rdf:resource="https://22nd.kokasai.com" rdfs:label="第 22 回工華祭サイト"/>
         <foaf:pastProject rdf:resource="https://matrix-jp.net" rdfs:label="matrix-jp.net"/>
         <foaf:pastProject rdf:resource="https://techbookfest.org/product/5703032188698624?productVariantID=5919267820142592" rdfs:label="合同誌「分散型 SNS 萬本 vol.2」"/>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:homepage rdf:resource="https://azumabashi.dev/"/>
+                <foaf:name>Azumabashi</foaf:name>
+            </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:homepage rdf:resource="https://www.yusuke.pub/"/>
+                <foaf:name>public_yusuke</foaf:name>
+            </foaf:Person>
+        </foaf:knows>
         <foaf:account>
             <foaf:OnlineAccount rdf:about="https://twitter.com/eniehack" rdfs:label="Twitter">
                 <foaf:accountServiceHomepage rdf:resource="https://twitter.com/"/>
