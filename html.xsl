@@ -235,6 +235,19 @@
         </li>
     </xsl:template>
 
+    <xsl:template match="//foaf:weblog">
+        <li>
+            <xsl:call-template name="anchor-rel-me">
+                <xsl:with-param name="text">
+                    <xsl:value-of select="@rdfs:label" />
+                </xsl:with-param>
+                <xsl:with-param name="href">
+                    <xsl:value-of select="@rdf:resource" />
+                </xsl:with-param>
+            </xsl:call-template>
+        </li>
+    </xsl:template>
+
     <xsl:template match="//foaf:accountServiceHomepage">
     </xsl:template>
     <xsl:template match="//foaf:accountName">
