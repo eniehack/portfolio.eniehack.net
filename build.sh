@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -euo
+set -eu
 
 mkdir -p ./build
 cat foaf.template.xml \
