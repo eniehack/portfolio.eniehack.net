@@ -324,7 +324,7 @@
             <time>
                 <xsl:attribute name="datetime">
                     <xsl:value-of select="text()" />
-                </xsl:attribute name="datetime">
+                </xsl:attribute>
                 <xsl:value-of select="text()" />
             </time>
         </span>
