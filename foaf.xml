@@ -35,13 +35,15 @@
         <foaf:interest rdf:resource="https://pleroma.social" rdfs:label="Pleroma"/>
         <foaf:interest rdf:resource="https://neovim.io" rdfs:label="Neovim"/>
         <foaf:interest rdf:resource="https://org-mode.org" rdfs:label="org-mode"/>
+        <foaf:interest rdf:resource="https://xmpp.org" rdfs:label="XMPP"/>
         <foaf:interest rdf:resource="https://www.wikidata.org/wiki/Q13420675" rdfs:label="図書館情報学"/>
         <foaf:interest rdf:resource="https://www.wikidata.org/wiki/Q428691" rdfs:label="計算機工学"/>
         <foaf:interest rdf:resource="https://www.wikidata.org/wiki/Q5891" rdfs:label="哲学" />
-        <foaf:currentProject rdf:resource="https://scrapbox.io/eniehack" rdfs:label="scrapbox" />
         <foaf:currentProject rdf:resource="https://jabber.eniehack.net" rdfs:label="jabber.eniehack.net"/>
         <foaf:currentProject rdf:resource="https://akkoma.eniehack.net" rdfs:label="akkoma.eniehack.net"/>
         <foaf:currentProject rdf:resource="https://matrix-docs-jp.netlify.app/" rdfs:label="matrix-jp wiki" />
+        <foaf:made rdf:resource="https://github.com/eniehack/itf-vendingmachine" rdfs:label="筑波大学 自販機 Map"/>
+        <foaf:made rdf:resource="https://github.com/eniehack/henly-web" rdfs:label="henly-web"/>
         <foaf:made rdf:resource="https://gitlab.com/eniehack/branca.cr" rdfs:label="branca.cr"/>
         <foaf:made rdf:resource="https://gitlab.com/eniehack/identicon-nim" rdfs:label="identicon-nim" />
         <foaf:made rdf:resource="https://gitlab.com/eniehack/webmention-cr" rdfs:label="webmention.cr" />
@@ -60,6 +62,12 @@
                 <foaf:name>public_yusuke</foaf:name>
             </foaf:Person>
         </foaf:knows>
+        <foaf:account>
+            <foaf:OnlineAccount rdf:about="https://scrapbox.io/eniehack" rdfs:label="scrapbox">
+                <foaf:accountServiceHomepage rdf:resource="https://scrapbox.io/"/>
+                <foaf:accountName>eniehack</foaf:accountName>
+            </foaf:OnlineAccount>
+        </foaf:account>
         <foaf:account>
             <foaf:OnlineAccount rdf:about="https://twitter.com/eniehack" rdfs:label="Twitter">
                 <foaf:accountServiceHomepage rdf:resource="https://twitter.com/"/>
