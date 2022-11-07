@@ -126,7 +126,10 @@
             <xsl:apply-templates select="/rdf:RDF/foaf:Person"/>
         </main>
         <footer>
-            <xsl:apply-templates select="/rdf:RDF/dc:*"/>
+            <xsl:apply-templates select="/rdf:RDF/dc:rights"/>
+            <p>
+                <xsl:apply-templates select="/rdf:RDF/dcterms:created|/rdf:RDF/dcterms:modified"/>
+            </p>
         </footer>
     </xsl:template>
 
@@ -307,12 +310,24 @@
     </xsl:template>
 
     <xsl:template match="//dcterms:created">
-        <p>
-            作成日:
+        <span>
+            作成:
             <time>
                 <xsl:value-of select="text()" />
             </time>
-        </p>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="//dcterms:modified">
+        <span>
+            更新:
+            <time>
+                <xsl:attribute name="datetime">
+                    <xsl:value-of select="text()" />
+                </xsl:attribute name="datetime">
+                <xsl:value-of select="text()" />
+            </time>
+        </span>
     </xsl:template>
 
     <xsl:template match="//dc:rights">

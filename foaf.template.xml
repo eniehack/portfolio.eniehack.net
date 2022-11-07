@@ -5,6 +5,7 @@
       xmlns:foaf="http://xmlns.com/foaf/0.1/"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:dcterms="http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xmlns:admin="http://webns.net/mvcb/">
     <dc:creator>
         <foaf:Person rdf:resource="#me"/>
@@ -13,6 +14,7 @@
     <dc:rights>copyright &#169; 2020- Nakaya.</dc:rights>
     <dc:language rdf:datatype="RFC5646">ja</dc:language>
     <dcterms:created rdf:datatype="W3CDTF">2022-09-10</dcterms:created>
+    <dcterms:modified rdf:datatype="xs:dateTime"></dcterms:modified>
     <foaf:PersonalProfileDocument rdf:about="">
         <foaf:maker rdf:resource="#me"/>
         <foaf:primaryTopic rdf:resource="#me"/>
