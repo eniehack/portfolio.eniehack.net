@@ -89,7 +89,13 @@
             </foaf:OnlineAccount>
         </foaf:account>
         <foaf:account>
-            <foaf:OnlineAccount rdf:about="https://mstdn.sublimer.me/@eniehack" rdfs:label="Mastodon">
+            <foaf:OnlineAccount rdf:about="https://akkoma.eniehack.net/eniehack" rdfs:label="Fediverse(Primary)">
+                <foaf:accountServiceHomepage rdf:resource="https://akkoma.eniehack.net/"/>
+                <foaf:accountName>eniehack</foaf:accountName>
+            </foaf:OnlineAccount>
+        </foaf:account>
+        <foaf:account>
+            <foaf:OnlineAccount rdf:about="https://mstdn.sublimer.me/@eniehack" rdfs:label="Fediverse サブ">
                 <foaf:accountServiceHomepage rdf:resource="https://mstdn.sublimer.me/"/>
                 <foaf:accountName>eniehack</foaf:accountName>
             </foaf:OnlineAccount>
