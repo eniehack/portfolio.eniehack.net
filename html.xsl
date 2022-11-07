@@ -128,8 +128,8 @@
             <article>
                 <div class="">
                     <span>
-                        <xsl:apply-templates select="//foaf:name" />
-                        <xsl:apply-templates select="//foaf:nick" />
+                        <xsl:apply-templates select="foaf:name" />
+                        <xsl:apply-templates select="foaf:nick" />
                     </span>
                     <xsl:apply-templates select="//foaf:depiction" />
                 </div>
@@ -168,11 +168,11 @@
                 </section>
 
                 <section>
-                    <h2>Links</h2>
+                    <h2>リンク</h2>
                     <div>
                         <ul>
-                            <xsl:apply-templates select="//foaf:weblog" />
-                            <xsl:apply-templates select="//foaf:account" />
+                            <xsl:apply-templates select="foaf:weblog" />
+                            <xsl:apply-templates select="foaf:account" />
                         </ul>
                     </div>
                 </section>
@@ -180,13 +180,13 @@
                 <section>
                     <h2>相互リンク</h2>
                     <ul>
-                        <xsl:apply-templates select="//foaf:knows" />
+                        <xsl:apply-templates select="foaf:knows" />
                     </ul>
                 </section>
             </article>
     </xsl:template>
 
-    <xsl:template match="//foaf:name">
+    <xsl:template match="/rdf:RDF/foaf:Person/foaf:name">
         <h1 id="title">
             <xsl:value-of select="text()" />
         </h1>
@@ -282,9 +282,9 @@
         </li>
     </xsl:template>
 
-    <xsl:template select="//foaf:knows/foaf:Persons">
+    <xsl:template match="//foaf:knows/foaf:Person">
         <li>
-            <xsl:call-template name="author-rel-friend-met">
+            <xsl:call-template name="anchor-rel-friend-met">
                 <xsl:with-param name="text">
                     <xsl:value-of select="foaf:name/text()" />
                 </xsl:with-param>
@@ -292,6 +292,7 @@
                     <xsl:value-of select="foaf:homepage/@rdf:resource" />
                 </xsl:with-param>
             </xsl:call-template>
+        </li>
     </xsl:template>
 
     <xsl:template match="//foaf:accountServiceHomepage">
