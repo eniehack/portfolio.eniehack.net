@@ -13,7 +13,7 @@ mkdir -p ./build
 
 cat foaf.template.xml \
     | sed \
-        "s/<dcterms:modified rdf:datatype=\"xs:dateTime\">/&$(date -Isecond)/"
+        "s/<dcterms:modified rdf:datatype=\"xs:dateTime\">/&$(date -Iseconds)/" \
         > foaf.xml
 
 xsltproc -o ./build/index.html html.xsl foaf.xml
