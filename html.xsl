@@ -30,6 +30,24 @@
         </a>
     </xsl:template>
 
+    <xsl:template name="anchor-rel-friend-met">
+        <xsl:param name="text" />
+        <xsl:param name="href" />
+        <a>
+            <xsl:attribute name="href">
+                <xsl:value-of select="$href" />
+            </xsl:attribute>
+            <xsl:attribute name="target">
+                <xsl:text>_blank</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="rel">
+                <xsl:text>noopenner noreferer friend met</xsl:text>
+            </xsl:attribute>
+
+            <xsl:value-of select="$text" />
+        </a>
+    </xsl:template>
+
     <xsl:template name="anchor">
         <xsl:param name="text" />
         <xsl:param name="href" />
@@ -49,7 +67,7 @@
     </xsl:template>
 
     <xsl:template match="/">
-        <html>
+        <html lang="ja">
             <head>
                 <meta charset="UTF-8" />
                 <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -128,15 +146,24 @@
                 <section>
                     <h2>works</h2>
                     <div>
+                        <section>
+                        <h3>現在のプロジェクト</h3>
                         <ul>
                             <xsl:apply-templates select="//foaf:currentProject" />
                         </ul>
+                        </section>
+                        <section>
+                        <h3>制作物</h3>
                         <ul>
                             <xsl:apply-templates select="//foaf:made" />
                         </ul>
+                        </section>
+                        <section>
+                        <h3>過去のプロジェクト</h3>
                         <ul>
                             <xsl:apply-templates select="//foaf:pastProject" />
                         </ul>
+                        </section>
                     </div>
                 </section>
 
@@ -148,6 +175,13 @@
                             <xsl:apply-templates select="//foaf:account" />
                         </ul>
                     </div>
+                </section>
+
+                <section>
+                    <h2>相互リンク</h2>
+                    <ul>
+                        <xsl:apply-templates select="//foaf:knows" />
+                    </ul>
                 </section>
             </article>
     </xsl:template>
@@ -222,7 +256,7 @@
         </li>
     </xsl:template>
 
-    <xsl:template match="//foaf:account/foaf:OnlineAccount|//foaf:weblog|//foaf:jabberID">
+    <xsl:template match="//foaf:account/foaf:OnlineAccount|//foaf:jabberID">
         <li>
             <xsl:call-template name="anchor-rel-me">
                 <xsl:with-param name="text">
@@ -246,6 +280,18 @@
                 </xsl:with-param>
             </xsl:call-template>
         </li>
+    </xsl:template>
+
+    <xsl:template select="//foaf:knows">
+        <li>
+            <xsl:call-template name="author-rel-friend-met">
+                <xsl:with-param name="text">
+                    <xsl:value-of select="@rdfs:label" />
+                </xsl:with-param>
+                <xsl:with-param name="href">
+                    <xsl:value-of select="@rdf:resource" />
+                </xsl:with-param>
+            </xsl:call-template>
     </xsl:template>
 
     <xsl:template match="//foaf:accountServiceHomepage">
