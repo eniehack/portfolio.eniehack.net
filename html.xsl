@@ -282,14 +282,14 @@
         </li>
     </xsl:template>
 
-    <xsl:template select="//foaf:knows">
+    <xsl:template select="//foaf:knows/foaf:Persons">
         <li>
             <xsl:call-template name="author-rel-friend-met">
                 <xsl:with-param name="text">
-                    <xsl:value-of select="@rdfs:label" />
+                    <xsl:value-of select="foaf:name/text()" />
                 </xsl:with-param>
                 <xsl:with-param name="href">
-                    <xsl:value-of select="@rdf:resource" />
+                    <xsl:value-of select="foaf:homepage/@rdf:resource" />
                 </xsl:with-param>
             </xsl:call-template>
     </xsl:template>
